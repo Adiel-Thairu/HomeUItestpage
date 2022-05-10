@@ -1,11 +1,14 @@
 <template>
+<div class="bg-blue-900 rectangle-xl  ">
+    <img class="absolute inset-0 h-2000 w-full object-cover opacity-10" src="/src/icons/3643848.jpg"  alt="" >
   
-  <section class="bg-blue-900 ">  
+  <section>
+     
     <!-- This example requires Tailwind CSS v2.0+ -->
-    <nav class="bg-blue-900">
-      <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-        <div class="relative flex items-center justify-between h-16">
-          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+    <nav >
+      <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 ">
+        <div class="relative flex items-center justify-between h-16 ">
+          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden ">
             <!-- Mobile menu button-->
             <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
               <span class="sr-only">Open main menu</span>
@@ -31,13 +34,13 @@
               </svg>
             </button>
           </div>
-          <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+          <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start ">
             <div class="flex-shrink-0 flex items-center">
               <img class="block lg:hidden h-8 w-auto" src="https://www.freepnglogos.com/uploads/total-logo-png/total-logo-energia-download-logos-2.png" alt="Workflow">
               <img class="hidden lg:block h-8 w-auto" src="https://www.freepnglogos.com/uploads/total-logo-png/total-logo-energia-download-logos-2.png" alt="Workflow">
             </div>
-            <div class="hidden sm:block sm:ml-6">
-              <div class="flex space-x-4">
+            <div class="hidden sm:block sm:ml-6 ">
+              <div class="flex space-x-4 ">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Services</a>
 
@@ -51,7 +54,7 @@
           </div>
           <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">FAQ</a>
-            <button type="button" class="bg-blue-900 p-1 rounded-full text-gray-400 hover:text-white focus:outline-style:solid focus:ring-2 focus:ring-offset-2 focus:ring-offset-red-900 focus:ring-orange">Login</button>
+            <button type="button" class="p-1 rounded-full hover:bg-gray-700 text-gray-400 hover:text-white focus:outline-style:solid focus:ring-2 focus:ring-offset-2 focus:ring-offset-red-900 focus:ring-orange">Login</button>
 
             <!-- Profile dropdown -->
             <div class=" z-40 ml-3 relative">
@@ -63,8 +66,10 @@
       </div>
 
       <!-- Mobile menu, show/hide based on menu state. -->
-      <div class="sm:hidden" id="mobile-menu">
-        <div class="px-2 pt-2 pb-3 space-y-1">
+      <div class="sm:hidden " id="mobile-menu">
+        
+        <div class="px-2 pt-2 pb-3 space-y-1 ">
+          <img class="absolute inset-0 h-full w-full object-cover opacity-10" src="/src/icons/3643848.jpg"  alt="" >
           <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
           <a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Services</a>
 
@@ -76,14 +81,14 @@
         </div>
       </div>
     </nav>
-  </section>
+  
       <!--HERO SECTION-->
-    <section>
+    
       <!-- This example requires Tailwind CSS v2.0+ -->
-      <div class="z-10 relative bg-blue-900 overflow-hidden">
+      <div class="z-10 relative  overflow-hidden ">
         <div class="max-w-7xl mx-auto">
-          <div class="relative z-10 pb-8 bg-blue-900 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-            <svg class=" bg-blue-900 hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+          <div class="relative z-10 pb-8  sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+            <svg class="  hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
               
             </svg>
 
@@ -96,12 +101,12 @@
                         <span class="sr-only">Workflow</span>
                         </a>
                       <div class="-mr-2 flex items-center md:hidden">
-                        <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
-                          <span class="sr-only">Open main menu</span>
-                          <!-- Heroicon name: outline/menu -->
-                          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                          </svg>
+                        <button type="button" class="bg-blue-500 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <!-- Heroicon name: outline/menu -->
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
                         </button>
                       </div>
                     </div>
@@ -115,10 +120,9 @@
                 <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                   <div class="px-5 pt-4 flex items-center justify-between">
                     <div>
-                      <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="">
-                    </div>
+                      <img class="block lg:hidden h-8 w-auto" src="https://www.freepnglogos.com/uploads/total-logo-png/total-logo-energia-download-logos-2.png" alt="Workflow"> </div>
                     <div class="-mr-2">
-                      <button type="button" class="bg-blue-600 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                      <button type="button" class="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                         <span class="sr-only">Close main menu</span>
                         <!-- Heroicon name: outline/x -->
                         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
@@ -127,7 +131,7 @@
                       </button>
                     </div>
                   </div>
-                  <div class="px-2 pt-2 pb-3 space-y-1 bg-blue-800">
+                  <!--<div class="px-2 pt-2 pb-3 space-y-1 bg-blue-500">
                     <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Product</a>
 
                     <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Features</a>
@@ -135,14 +139,14 @@
                     <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Marketplace</a>
 
                     <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Company</a>
-                  </div>
+                  </div>-->
                   
                 </div>
               </div>
             </div>
 
-            <main class="bg-blue-900 mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 ">
-              <div class="sm:text-center lg:text-left bg-blue-900">
+            <main class=" mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 ">
+              <div class="sm:text-center lg:text-left ">
                 <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                   <span class="block xl:inline text-white">Online Accounting</span>
                   <span class="block text-white xl:inline">You can trust</span>
@@ -161,30 +165,38 @@
           </div>
         </div>
         <!--image of hero-->
-        <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-          <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://freesvg.org/img/Small-Town-Cityscape-Radial.png"  alt="">
-          <img  src="https://freesvg.org/overwhelmed-man-with-laptop" alt="">
+        <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-50 ">
+          <div class="relative">
+          <img class="absolute object-contain  h-48 w-full lg:w-full lg:h-full " src="/src/icons/252-2520959_man-with-laptop-stock-pictures-of-student.png"  alt="">
+          <img class="h-56 w-full object-contain sm:h-72 md:h-96 lg:w-full lg:h-full " src="https://freesvg.org/img/Small-Town-Cityscape-Radial.png"  alt="">
          
+          </div>
         </div>
       </div>
 
       
-    </section>
+    
     
       <!--feature section-->
-    <section class="bg-blue-900">
+    
       <!-- This example requires Tailwind CSS v2.0+ -->
-      <div class="py-12 bg-blue-900">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="py-12 ">
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+          
           <div class="lg:text-center">
+            
             <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Services</h2>
             <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">A better way to access the internet</p>
             <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>
           </div>
 
           <div class="mt-10">
+            
             <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+              
               <div class="relative">
+                
                 <dt>
                   <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                     <!-- Heroicon name: outline/globe-alt -->
@@ -198,6 +210,7 @@
               </div>
 
               <div class="relative">
+               
                 <dt>
                   <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                     <!-- Heroicon name: outline/scale -->
@@ -224,7 +237,7 @@
               </div>
 
               <div class="relative">
-                <dt>
+                  <dt>
                   <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                     <!-- Heroicon name: outline/annotation -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
@@ -242,7 +255,7 @@
     </section>
 
    
-    
+</div>   
 </template>
 
 <script setup>
